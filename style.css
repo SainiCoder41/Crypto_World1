@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;  /* Choose a clean font */
+    background-color: #121212; /* Dark background for a sleek look */
+    color: #f1f1f1; /* Light text for contrast */
+    font-size: 16px; /* Adjusted font size for readability */
+}
+
+/* Heading Styles */
+.heading {
+    text-align: center;
+    margin-top: 150px;  /* Reduced the top margin */
+    font-size: 40px;  /* Larger heading for prominence */
+    font-weight: 600;  /* Make the heading bolder */
+    color: #ffcc00;  /* Golden color for a crypto-like vibe */
+    letter-spacing: 2px;  /* Slight letter-spacing for style */
+}
+
+/* Main Content Area */
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* Align items in column for better layout */
+}
+
+/* Input Field Styling */
+.input {
+    height: 40px;
+    width: 100%;  /* Full width for responsiveness */
+    max-width: 500px;  /* Maximum width for larger screens */
+    padding: 0 15px;  /* Add padding for comfort */
+    border: 2px solid #ffcc00;  /* Golden border to match the theme */
+    background-color: #1a1a1a;  /* Dark input field for consistency */
+    color: #f1f1f1;  /* Light text color */
+    font-size: 18px;  /* Slightly larger font for input */
+    border-radius: 5px;  /* Rounded corners */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus {
+    border-color: #00b8d4;  /* Change border color on focus for visual feedback */
+}
+
+/* Button Styling */
+.btn {
+    background-color: #ffcc00;  /* Bright golden button */
+    color: #121212;  /* Dark text for contrast */
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00b8d4;  /* Hover effect with a blue color */
+    color: white;
+}
+
+/* Optional Section Styling (for content below main) */
+.content-section {
+    margin-top: 30px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.content-section h2.symbol {
+    font-size: 24px;
+    color: #0077b6;  /* A cool blue for the symbol */
+    margin-top: 10px;
+}
+
+.content-section .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    max-width: 150px;  /* Ensuring the image doesn't get too big */
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.content-section li {
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    color: #333;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.content-section li:first-child {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.content-section li:last-child {
+    background-color: #FF6347;
+    color: #ffffff;
+}
+
+.content-section li:hover {
+    transform: translateY(-5px);
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.content-section li:first-child:hover {
+    background-color: #45a049;
+}
+
+.content-section li:last-child:hover {
+    background-color: #e53e32;
+}
