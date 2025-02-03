@@ -1,10 +1,11 @@
 {
   "name": "learing",
   "version": "1.0.0",
-  "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://sainicoder41.github.io/Crypto_World1",
   "author": "",
   "license": "ISC",
   "description": "",
@@ -16,4 +17,5 @@
     "parcel": "^2.13.3",
     "process": "^0.11.10"
   }
+  
 }
